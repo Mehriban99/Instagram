@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #FAFAFA !important;
+}
+
+.first{
+    padding: 8rem 0;
+
+    .part2{
+        .firstpart{
+            padding: 20px 10px;
+            text-align: center;
+            background-color: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 1px;
+
+            h1{
+                margin-bottom: 50px;
+            }
+
+            input{
+                margin: auto;
+                margin-bottom: 8px;
+                display: block;
+                width: 80%;
+                height: 35px;
+                padding: 9px 0 9px 8px;
+                background: #fafafa;
+                border: 1px solid #e6e6e6;
+                border-radius: 2px;
+                color: #b2b2b2;
+            }
+            ::placeholder{
+                font-size: 13px;
+            }
+
+            button{
+                margin: auto;
+                width: 80%;
+                height: 35px;
+                border-radius: 3px;
+                color: white;
+                border: none;
+                background-color: #CADFFB;
+                font-weight: bold;
+                margin-top: 12px;
+            }
+
+            .middle{
+                padding: 10px 20px;
+                p{
+                    padding-top: 6px;
+                    font-size: 13px;
+                    color: #999999;
+                    font-weight: bold;
+                }
+            }
+
+            .ahref1{
+                color: #385185;
+                font-size: 14px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            .ahref2{
+                margin-top: 15px;
+                display: block;
+                color: #003569;
+                font-size: 12px;
+                text-decoration: none;
+            }
+        }
+
+        .secondpart{
+            margin-top: 10px;
+            padding: 20px 10px;
+            text-align: center;
+            background-color: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 1px;
+
+            span{
+                color: #262626;
+                font-size: 14px;
+            }
+            a{
+                color: #3897f0;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+
+        .sentence{
+            padding: 20px 0;
+            text-align: center;
+            p{
+                font-size: 14px;
+                color: #262626;
+            }
+        }
+
+        .row{
+            .img{
+                margin: 0 4px;
+            }
+        }
+    }
+}
